@@ -1,0 +1,653 @@
+@font-face {
+    font-family: indah;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: kalimat;
+    src: url(EduVICWANTHandPre-VariableFont_wght.ttf);
+}
+
+
+
+.bingkai {
+position: fixed;
+    margin: 0;
+    width: 50vw;
+    height: 50vh; /* Sesuaikan menjadi 150vh jika halaman Anda memang panjang ke bawah */
+    
+    /* Memasukkan file gambar */
+
+    /* KUNCI UTAMA FULLSCREEN DI CSS */
+    background-size: cover;       /* Gambar otomatis membesar memenuhi ruang tanpa gepeng */
+    background-position: center;   /* Gambar diposisikan pas di tengah */
+    background-repeat: no-repeat; /* Mencegah gambar mengulang/pecah menjadi banyak */
+    z-index: 1;
+}
+
+
+.namewrapped {
+background: radial-gradient(circle at 50% 120%, #a685ff 0%, #ff85a2 40%, #ff4d6d 80%, #c9184a 100%); 
+    padding: 0;
+    width: 100;
+    height: 103vh;
+    flex-shrink: 0;
+    box-sizing: border-box;
+
+}
+
+.j1 { 
+    position: relative;
+      transform: translate(-50%, -50%);
+  top: 30%;
+  left: 50%;
+    margin: 0;
+    padding: 0;
+    font-family: 'indah';
+font-size: clamp(100px, 12vw, 80px);
+    width: 100%;
+    min-height: 50vh;
+    max-width: 500px;
+    word-break: break-all;
+    
+
+    color: #b82c38;
+    text-align: center;
+    line-height: 0.7;
+    
+
+}
+.lapisan {
+    position: relative;
+    
+    padding: 0;
+    margin: 0;
+    height: 50%;
+    width: 100%;
+    
+}
+.lope {
+
+position: absolute;
+ top: 0%;
+  left: 60%;
+    margin: 0;
+    padding: 0;
+height: 11vh;
+
+margin: 0;
+padding: 0;
+
+}
+
+.j3 {
+    position: relative;
+    color: #b11212;
+  
+    text-align: center;
+   font-size: clamp(20px, 12vw, 20px);
+    top: -26%;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.lapisanfoto {
+    display: flex;
+    position: absolute;
+ left: 0; 
+    width: 100vw;
+    top: 30vh;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.fotook {
+    display: flex;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 36vh;
+    width: clamp(180px, 60vw, 245px);
+     justify-content: center;
+     rotate: -2deg;
+      box-shadow: -10px 15px 20px rgba(0, 0, 0, 0.445);;
+   margin-right: 20px;
+
+}
+
+
+.gambarnya {
+    position: relative;
+    background-image: url(mitakk.png);
+    background-size: cover;
+    height: 230px;
+    top: 10px;
+    width: 230px;
+    background-color: #e48a8a;
+}
+
+.namak {
+    position: relative;
+    font-family: indah;
+    font-size: 30px;
+    top: 26vh;
+}
+
+.tape {
+    position: absolute;
+    height: 3vh;
+   width: 60px;
+    top: -20px;
+    left: 70px;
+    background-color: rgb(255, 67, 145);
+    opacity: 0.7;
+    rotate: -5deg;
+    clip-path: polygon(
+   
+    0% 0%, 100% 0%, 
+    97% 10%, 100% 20%, 97% 30%, 100% 40%, 97% 50%, 100% 60%, 97% 70%, 100% 80%, 97% 90%, 100% 100%,
+    0% 100%, 
+    3% 90%, 0% 80%, 3% 70%, 0% 60%, 3% 50%, 0% 40%, 3% 30%, 0% 20%, 3% 10%
+  );
+}
+
+/* PUNYA RAPAAKKKKKKK */
+.fotook1 {
+    display: flex;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 36vh;
+    width: clamp(180px, 60vw, 245px);
+     justify-content: center;
+     rotate: -2deg;
+      box-shadow: -10px 15px 20px rgba(0, 0, 0, 0.445);;
+     
+
+.gambarnya1 {
+    position: relative;
+    background-image: url(rapak.jpg);
+    background-size: cover;
+    height: 230px;
+    top: 10px;
+    width: 230px;
+    background-color: #e48a8a;
+}
+
+.namak1 {
+    position: relative;
+    font-family: indah;
+    font-size: 30px;
+    top: 26vh;
+}
+
+.tape1 {
+    position: absolute;
+    height: 3vh;
+    width: 60px;
+    top: -20px;
+    left: 70px;
+    background-color: rgb(255, 67, 145);
+    opacity: 0.7;
+    rotate: -5deg;
+    clip-path: polygon(
+   
+    0% 0%, 100% 0%, 
+    97% 10%, 100% 20%, 97% 30%, 100% 40%, 97% 50%, 100% 60%, 97% 70%, 100% 80%, 97% 90%, 100% 100%,
+    0% 100%, 
+    3% 90%, 0% 80%, 3% 70%, 0% 60%, 3% 50%, 0% 40%, 3% 30%, 0% 20%, 3% 10%
+  );
+}
+
+     
+    
+}
+.ani {
+    color: #b11212;
+}
+
+.idname {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+   text-align: center;
+    top: 90px;
+    background-color: #fcfcfcc4;
+    width: 10vh;
+    border: solid 2px;
+    border-radius: 20px 20px 20px 20px;
+    border-color: rgba(117, 117, 117, 0.486);
+     box-shadow: -10px 15px 20px rgba(0, 0, 0, 0.445);;
+     
+}
+
+.tgl {
+     display: flex;
+    justify-content: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+   text-align: center;
+    top: 95px;
+    background-color: #eb1313c4;
+    width: 15vh;
+    border: solid 1px;
+    border-radius: 20px 20px 20px 20px;
+    border-color: rgba(235, 13, 13, 0.486);
+     box-shadow: -10px 8px 20px rgba(0, 0, 0, 0.445);;
+     
+}
+
+
+
+.kotak {
+
+    
+    margin: 0;
+    height: 150vh;
+    overflow: clip; 
+    /* WARNA ATAS: Dibuka dengan Merah Mawar Cerah (0%), lalu mengalir ke Pink Romantis (100%) */
+    background: linear-gradient(to bottom, #e63946 0%, #ff85a2 50%, #fbc4ab 100%);
+} 
+
+.kotak2 {
+    position: relative;
+    top: 0vh;
+    margin: 0;
+    height: 150vh;
+    overflow: clip; 
+     
+    /* WARNA BAWAH: Melanjutkan dari Peach (0%) menuju warna Cream Emas yang Cerah dan Lembut (100%) */
+    background: linear-gradient(to bottom, #fbc4ab 0%, #fbd7c6 55%, #fff1eb 100%);
+} 
+
+
+
+.flower {
+    position: absolute;
+    top: -50px;
+    /* Tentukan ukuran default gambar bunga */
+    width: 25px; 
+    height: 25px;
+    
+    /* Memasukkan gambar bunga Anda */
+    background-image: url('https://pics.clipartpng.com/Heart_Shape_PNG_Clipart-3166.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* Jalankan animasi */
+    animation: fall 5s linear infinite, spin 4s ease-in-out infinite;
+}
+.hati { background-image: url('hatihati.png');
+    position: absolute;
+    height: 150vh;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    top: 570px;
+}
+
+@keyframes animasiFotoBaru {
+    from {
+       opacity: 0;
+       scale: 0.4;
+    }
+
+    to {
+       opacity: 1;
+       scale: 1;
+    }
+}
+
+
+
+
+
+/* Animasi Utama */
+@keyframes fall {
+    0% { top: -50px; }
+    100% { top: 105vh; }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Variasi Posisi, Ukuran, dan Jeda Menggunakan CSS */
+.f1 { left: 10%; animation-delay: 0s; width: 50px; height: 50px; }
+.f2 { left: 25%; animation-delay: 1.5s; width: 45px; height: 45px; }
+.f3 { left: 40%; animation-delay: 0.5s; width: 40px; height: 40px; }
+.f4 { left: 55%; animation-delay: 2.5s; width: 30px; height: 30px; }
+.f5 { left: 70%; animation-delay: 1s; width: 50px; height: 50px; }
+.f6 { left: 85%; animation-delay: 3s; width: 47px; height: 47px; }
+.f7 { left: 15%; animation-delay: 2s; width: 45px; height: 45px; }
+.f8 { left: 65%; animation-delay: 3.5s; width: 30px; height: 30px; }
+
+@keyframes muncul { 
+    from {opacity: 0;
+    transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+audio {
+    position: fixed;
+  width: 300px;
+  margin-top: 20px;
+  pointer-events: auto;
+  z-index: 999999;
+   bottom: 20px; 
+  right: 20px;
+}
+
+
+
+.alatter {
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 50vh;
+}
+
+.boxlatter {
+    position: relative;
+    height: 90vh;
+    width: 70vw;
+    background-color: rgb(196, 196, 204);
+    margin: 0;
+    padding: 0;
+    top: -vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgba(12, 9, 3, 0.979);
+    background-image: url(https://img.magnific.com/premium-vector/drawing-flowers-with-word-pink-it_1257213-4709.jpg?semt=ais_test_b&w=740&q=80);
+background-position: 50%;
+   
+    
+  
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(180, 80, 110, 0.2);
+}
+
+.boxlatter::after {
+    content: "";
+    position: absolute;
+    inset: 12px;
+    
+    pointer-events: none;
+}
+.boxlatter::before {
+    content: "♡  ♥  ♡";
+    position: absolute;
+    top: -0.1px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: #d3d3d3f5;
+    padding: 0 15px;
+
+    color: #c41f4e;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+
+.latter {
+    position: relative;
+    height: 80vh;
+    width: 65vw;
+background-color: rgba(255, 255, 255, 0.568);
+    margin: 0;
+    padding: 0;
+    top: -vh;
+    
+     border: 2px dashed #e8a0b5;
+}
+
+.judulkata {font-family: kalimat;
+  font-size: 30px;
+  margin: 0;
+}
+
+.scrollhati {
+    position: absolute;
+   
+background-color: chartreuse;
+
+    
+  
+}
+.lapisan1 {
+    background-color: #b11212;
+  
+}
+
+.isian { margin: 2px;
+    font-size: 16px;
+    line-height: 21px;
+
+ 
+
+    background-image: repeating-linear-gradient(
+        to bottom,
+        transparent 0px,
+        transparent 29px,
+        rgba(100, 100, 100, 0.3) 30px
+    );
+   
+
+    background-position: 0 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.foto1 {
+    position: absolute;
+   animation: animasiFotoBaru 5s linear; /* Durasi '5s' wajib dihapus */
+    animation-timeline: view();
+   animation-range: cover 0% cover 30%;  /* Sintaksis yang valid (bukan exit cover) */
+
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    top: 100px;
+    left: 450px;
+    background-image: url(mita1.png);
+    background-size: cover;
+
+    
+}
+.foto2 {
+    position: absolute;
+   animation: animasiFotoBaru 5s linear; /* Durasi '5s' wajib dihapus */
+    animation-timeline: view();
+   animation-range: cover 0% cover 30%;  /* Sintaksis yang valid (bukan exit cover) */
+
+    background-color: rgb(0, 255, 64);
+    height: 200px;
+    width: 200px;
+     top: 100px;
+    left: 50px;
+    background-image: url(mita2.png);
+    background-size: cover;
+}
+.foto3 {
+     position: absolute;
+   animation: animasiFotoBaru 5s linear; /* Durasi '5s' wajib dihapus */
+    animation-timeline: view();
+   animation-range: cover 0% cover 30%;  /* Sintaksis yang valid (bukan exit cover) */
+
+    background-color: rgb(255, 38, 0);
+    height: 200px;
+    width: 200px;
+     top: 300px;
+    left: 150px;
+    background-image: url(mita7.png);
+    background-size: cover;
+}
+.foto4 {
+    position: absolute;
+   animation: animasiFotoBaru 5s linear; /* Durasi '5s' wajib dihapus */
+    animation-timeline: view();
+   animation-range: cover 0% cover 30%;  /* Sintaksis yang valid (bukan exit cover) */
+
+    background-color: rgb(0, 195, 255);
+     height: 200px;
+    width: 200px;
+      top: 300px;
+    left: 350px;
+    background-image: url(mita3.png);
+    background-size: cover;
+}
+.foto5 {
+   position: absolute;
+   animation: animasiFotoBaru 5s linear; /* Durasi '5s' wajib dihapus */
+    animation-timeline: view();
+   animation-range: cover 0% cover 30%;  /* Sintaksis yang valid (bukan exit cover) */
+
+    background-color: rgb(153, 0, 255);
+     height: 150px;
+    width: 150px;
+     top: 500px;
+    left: 270px;
+    background-image: url(mita4.png);
+    background-size: cover;
+}
+
+.foto6 {
+   position: absolute;
+   animation: animasiFotoBaru 5s linear; /* Durasi '5s' wajib dihapus */
+    animation-timeline: view();
+   animation-range: cover 0% cover 30%;  /* Sintaksis yang valid (bukan exit cover) */
+
+    background-color: rgb(229, 255, 0);
+     height: 100px;
+    width: 100px;
+    top: 200px;
+    left: 350px;
+    background-image: url(mita5.png);
+    background-size: cover;
+}
+.foto7 {
+    position: absolute;
+   animation: animasiFotoBaru 5s linear; /* Durasi '5s' wajib dihapus */
+    animation-timeline: view();
+   animation-range: cover 0% cover 30%;  /* Sintaksis yang valid (bukan exit cover) */
+
+    background-color: rgb(255, 0, 179);
+     height: 100px;
+    width: 100px;
+    top: 200px;
+    left: 250px;
+    background-image: url(mita6.png);
+    background-size: cover;
+}
+
+.foto8 {
+position: absolute;
+   animation: animasiFotoBaru 5s linear; /* Durasi '5s' wajib dihapus */
+    animation-timeline: view();
+   animation-range: cover 0% cover 30%;  /* Sintaksis yang valid (bukan exit cover) */
+
+    background-color: rgb(0, 255, 0);
+     height: 150px;
+    width: 50px;
+      top: 300px;
+    left: 550px;
+       background-image: url(https://i.pinimg.com/564x/cd/ce/cb/cdcecb6f3a352d1d9743e8bf707efe8f.jpg);
+    background-size: cover;
+}
+
+.foto9 {
+ position: absolute;
+   animation: animasiFotoBaru 5s linear; /* Durasi '5s' wajib dihapus */
+    animation-timeline: view();
+   animation-range: cover 0% cover 30%;  /* Sintaksis yang valid (bukan exit cover) */
+
+    background-color: rgb(255, 196, 0);
+     height: 150px;
+    width: 50px;
+      top: 300px;
+    left: 100px;
+    background-image: url(https://i.pinimg.com/564x/cd/ce/cb/cdcecb6f3a352d1d9743e8bf707efe8f.jpg);
+    background-size: cover;
+}
+
+.foto10 {
+position: absolute;
+   animation: animasiFotoBaru 5s linear; /* Durasi '5s' wajib dihapus */
+    animation-timeline: view();
+   animation-range: cover 0% cover 30%;  /* Sintaksis yang valid (bukan exit cover) */
+
+    background-color: rgb(115, 255, 0);
+     height: 100px;
+    width: 80px;
+     top: 500px;
+    left: 190px;
+    background-image: url(mita100.png);
+    background-size: cover;
+}
+
+.foto11 {
+ position: absolute;
+   animation: animasiFotoBaru 5s linear; /* Durasi '5s' wajib dihapus */
+    animation-timeline: view();
+   animation-range: cover 0% cover 30%;  /* Sintaksis yang valid (bukan exit cover) */
+
+    background-color: rgb(255, 123, 0);
+     height: 100px;
+    width: 80px;
+     top: 500px;
+    left: 420px;
+    background-image: url(mitaakkkktkkt.png);
+    background-size: cover;
+}
+
+
+.foto12 {
+position: absolute;
+   animation: animasiFotoBaru 5s linear; /* Durasi '5s' wajib dihapus */
+    animation-timeline: view();
+   animation-range: cover 0% cover 30%;  /* Sintaksis yang valid (bukan exit cover) */
+
+    background-color: rgb(0, 119, 255);
+     height: 50px;
+    width: 50px;
+    top: 150px;
+    left: 250px;
+    background-image: url(https://media.tenor.com/cRTQk6N_FxMAAAAM/swag-cat-swagbilli-cutecat-cats-cat-swag-ok-yooo-yo.gif);
+    background-size: cover;
+}
+
+.foto13 {
+  position: absolute;
+   animation: animasiFotoBaru 5s linear; /* Durasi '5s' wajib dihapus */
+    animation-timeline: view();
+   animation-range: cover 0% cover 30%;  /* Sintaksis yang valid (bukan exit cover) */
+
+    background-color: rgb(0, 119, 255);
+     height: 50px;
+    width: 50px;
+    top: 150px;
+    left: 400px;
+    background-image: url(https://preview.redd.it/random-question-but-does-anyone-have-versions-of-this-cat-v0-ya8qikz9kn0f1.png?auto=webp&s=c2fdba9a3904ab3bec9e7367e380f66343c2929a);
+    background-size: cover;
+}
