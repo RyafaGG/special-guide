@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'rapak';
+  src: url(BluemonoRegular-rvqAO.ttf);
+  font-weight: ;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000; /* Warna dasar terdalam */
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.wellcome {
+  position: absolute;
+  font-size: 330px;
+  top: 21px;
+  font-family: 'rapak';
+  color: beige;
+  
+}
+ 
+.main { 
+    position: ab;
+    padding: 20;
+    background-color: rgb(2, 1, 1);
+    backdrop-filter: blur(10px);
+    border: solid 2px rgba(94, 94, 94, 0.452);
+   min-height: 15px;
+   height: auto;
+    opacity: 0.7;
+}
+
+.BG { background-image: url('oi.jpg');
+  background-size: cover; /* atau pakaicontain */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+ min-height: 100vh;
+  position: absolute;
+  z-index: -10;
+  filter: blur(1px);
+
+}
+.judul {
+    display: flex;
+   justify-content: center;
+    color: #b4b3b3;
+    max-width: 100%;
+    margin: 0;
+
+}
+
+.peringatan {
+  position: static;
+    top: 20px;
+    align-items: center;
+ background: rgba(255, 255, 255, .12);
+  box-sizing: border-box;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  border-right: 2px solid rgba(255, 255, 255, .12);
+  border-top: 2px solid rgba(255, 255, 255, .12);
+  border-left: 2px solid rgba(255, 255, 255, .12);
+ width: 60vh;
+ height: 3vh;
+ text-align: center;
+ padding: 1px  0px   2px   1px;
+ border-radius: 20px 20px 0px 0px;
+ z-index: 2;
+ box-sizing: border-box;
+  text-align: center;
+}
+
+h2 {
+   position: static;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+ color: aqua;
+}
+
+.wrapped {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Membuat ke tengah secara horizontal (kanan-kiri) */
+  align-items: center;     /* Membuat ke tengah secara vertikal (atas-bawah) */
+  min-height: 100vh;       /* Setinggi layar penuh agar posisi vertikalnya pas di tengah */
+  
+}
+
+
+
+.kalimat {
+    position: static;
+
+  height: 20vh;
+  width: 60vh;
+  background: rgba(255, 255, 255, .12);
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 0px 0px 20px 20px;
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid rgba(255, 255, 255, .12);
+  border-right: 2px solid rgba(255, 255, 255, .12);
+  border-left: 2px solid rgba(255, 255, 255, .12);
+  color: rgb(7, 9, 12);
+  font-family: Garamond, serif;
+ letter-spacing: 2px;
+  font-size: 30;
+}
+
+
+.bga{
+    
+}
+.d-grid {
+    position: static;
+    top: 20px;
+    align-items: center;
+   
+
+
+
+}
